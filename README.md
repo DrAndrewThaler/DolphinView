@@ -39,6 +39,8 @@ This system uses standard Arduino libraries plus the specific library for the TF
 
 **2. Build the amplifier:** Solder wire into Power + and -, Input G and R, and Rout + and - on the Audio Amplifier. Connect Power + and - to GND and 5V on Arduino. Connect Input R to Pin 3 and Input G to GND on the Arduino. Connect Rout - to S and Rout+ to T on the stereo terminal block. Bridge R and T on the terminal block. 
 
-**3. Connect the LiDAR:** 
+**3. Connect the LiDAR:** Remove the connector and solder on long leads to each of the four wires. Connect negativeand positive terminals to 3.3V and GND on the Arduino. Connect TX to Arduino pin 10 and RX to Arduino pin 11. 
 
-**4. Enclose the system:** Build your own enclosure or use the included laser cutting file to enclose all the components. 
+**4. Enclose the system:** Build your own enclosure or use the included laser cutting file to enclose all the components. Attach the LiDAR sensor to the included glasses if you also want to look ridiculous while walking around with this. 
+
+If you build one, please let me know on [Twitter](https://twitter.com/DrAndrewThaler), [Mastodon](https://oceansocial.us/@DrAndrewThaler), or [Instagram](https://www.instagram.com/drandrewthaler/) and tell me how it goes. To support more weird and wonderful projects like this, please check out my [Patreon](https://www.patreon.com/Andrew_Thaler).
