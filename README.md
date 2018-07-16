@@ -25,6 +25,7 @@ The following list reflects the original sourcing for this project, not necessar
 - [Push Button Switch](https://amzn.to/2NXeVZQ)
 - [Lithium Battery Charger Board](https://amzn.to/2JsXNrP)
 - [Adjustable Step-up Converter](https://amzn.to/2Jq3iHC)
+- [Pigtail male barrel plug](https://amzn.to/2zLcsic)
 - [Lithium Ion Battery 3.7v](https://amzn.to/2JpkPzv)
 
 ## Arduino Software and Libraries
@@ -32,3 +33,7 @@ This system uses standard Arduino libraries plus the specific library for the TF
 - [SoftwareSerial.h](https://www.arduino.cc/en/Reference/softwareSerial)
 - [TFMini.h](https://github.com/opensensinglab/tfmini)
 - [dolphinview.ino](https://github.com/SouthernFriedScientist/DolphinView/blob/master/code/dolphinview.ino)
+
+## Basic Construction
+**1. Build the charging circuit:** Remove the connector from the LiPo battery and solder it directly to the B+ and B- terminals of the charging unit. Connect OUT+ and OUT- of the charging unit to IN+ and IN- of the step-up converter. Using a multimeter, adjust the converter output to 5V. solder the 5.5mm barrel plug to the OUT+ and OUT- terminals on the converter. Connect barrel plug to Arduino to confirm power. Solder toggle switch between covnerter and barrel plug on the + line.
+**2. Build the amplifier:** Solder wire into Power + and -, Input G and R, and Rout + and - on the Audio Amplifier. Connect Power + and - to GND and 5V on Arduino. Connect Input R to Pin 3 and Input G to GND on the Arduino. Connect Rout - to S and Rout+ to T on the stereo terminal block. Bridge R and T on the terminal block. 
