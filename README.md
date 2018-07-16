@@ -26,3 +26,9 @@ The following list reflects the original sourcing for this project, not necessar
 - [Lithium Battery Charger Board](https://amzn.to/2JsXNrP)
 - [Adjustable Step-up Converter](https://amzn.to/2Jq3iHC)
 - [Lithium Ion Battery 3.7v](https://amzn.to/2JpkPzv)
+
+## Arduino Software and Libraries
+This system uses standard Arduino libraries plus the specific library for the TFMini LiDAR Unit.
+- [SoftwareSerial.h](https://www.arduino.cc/en/Reference/softwareSerial)
+- [TFMini.h](https://github.com/opensensinglab/tfmini)
+- [dolphinview.ino](https://github.com/SouthernFriedScientist/DolphinView/blob/master/code/dolphinview.ino)
