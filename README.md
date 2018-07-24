@@ -43,12 +43,10 @@ This system uses standard Arduino libraries plus the specific library for the TF
 
 **4. Enclose the system:** Build your own enclosure or use the included laser cutting file to enclose all the components. Attach the LiDAR sensor to the included glasses if you also want to look ridiculous while walking around with this. 
 
-If you build one, please let me know on [Twitter](https://twitter.com/DrAndrewThaler), [Mastodon](https://oceansocial.us/@DrAndrewThaler), or [Instagram](https://www.instagram.com/drandrewthaler/) and tell me how it goes. To support more weird and wonderful projects like this, please check out my [Patreon](https://www.patreon.com/Andrew_Thaler).
-
 ## Acknowledgements
 
 The design for the glasses were modified and adapted from r4f's [Laser Cut Foldable Wooden Glasses instructable](https://www.instructables.com/id/Laser-cut-foldable-wooden-glasses/). Time-of-flight code was adapted from Peter Jansen's [example code for the TF-Mini](https://github.com/opensensinglab/tfmini/blob/master/examples/BasicReading/BasicReading.ino).
 
 ## Support
 
-If you liked this project and want to support other projects of varying levels of practicality and whimsy, please consider making a [contribution to my patreon campaign](https://www.patreon.com/Andrew_Thaler). 
+If you build one, please let me know on [Twitter](https://twitter.com/DrAndrewThaler), [Mastodon](https://oceansocial.us/@DrAndrewThaler), or [Instagram](https://www.instagram.com/drandrewthaler/) and tell me how it goes. To support more weird and wonderful projects like this, please check out my [Patreon](https://www.patreon.com/Andrew_Thaler).
