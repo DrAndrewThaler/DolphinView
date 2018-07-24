@@ -45,7 +45,7 @@ This system uses standard Arduino libraries plus the specific library for the TF
 
 If you build one, please let me know on [Twitter](https://twitter.com/DrAndrewThaler), [Mastodon](https://oceansocial.us/@DrAndrewThaler), or [Instagram](https://www.instagram.com/drandrewthaler/) and tell me how it goes. To support more weird and wonderful projects like this, please check out my [Patreon](https://www.patreon.com/Andrew_Thaler).
 
-##Acknowledgements
+## Acknowledgements
 
 The design for the glasses were modified and adapted from r4f's [Laser Cut Foldable Wooden Glasses instructable](https://www.instructables.com/id/Laser-cut-foldable-wooden-glasses/). Time-of-flight code was adapted from Peter Jansen's [example code for the TF-Mini](https://github.com/opensensinglab/tfmini/blob/master/examples/BasicReading/BasicReading.ino).
 
