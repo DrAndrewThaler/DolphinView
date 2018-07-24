@@ -3,7 +3,7 @@ A LiDAR system to convert distance measurements into signal pulses in bone-condu
 
 ## Background
 
-Dolphin's echolocate but they don't hear those pings quite the way we would. They recieve echolocation pings as vibrations in their lower jaw. Some big whales do this too. Which rasises the question: "what if we could use bone conducting headphones and ultrasonic range finders to mimic that experience?"
+Dolphin's echolocate but they don't hear those pings quite the way we would. They receive echolocation pings as vibrations in their lower jaw. Some big whales do this too. Which raises the question: "what if we could use bone conducting headphones and ultrasonic range finders to mimic that experience?"
 
 And DolphinView was born. 
 
