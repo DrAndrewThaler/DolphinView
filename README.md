@@ -7,7 +7,7 @@ Dolphin's echolocate but they don't hear those pings quite the way we would. The
 
 And DolphinView was born. 
 
-Ultrasonic rangefinders (at lease the readily available ones use for proximity detection) are really short range (less than half a meter). I replaced those with a much longer range time-of-flight LiDAR unit. It's the kind of thing you might see on a drone to detect and avoid onstacles. Using this LiDAR unit, I created a system that pulses like SONAR the closer an object gets to you. 
+Ultrasonic rangefinders (at lease the readily available ones use for proximity detection) are really short range (less than half a meter). I replaced those with a much longer range time-of-flight LiDAR unit. It's the kind of thing you might see on a drone to detect and avoid obstacles. Using this LiDAR unit, I created a system that pulses like SONAR the closer an object gets to you. 
 
 But that's just a proximity alarm. The real trick is sending the signal to your brain the way a dolphin might. 
 
